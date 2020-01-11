@@ -15,24 +15,8 @@ body {
 div.Basic-Text-Frame {
 	border-style:solid;
 }
-li.Body-Styles_Alpha-List {
-	color:#000000;
-	font-family:"HelveticaNeueLT Pro 55 Roman", sans-serif;
-	font-size:1.35em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:300;
-	line-height:1.351;
-	
-	list-style-type:lower-alpha;
-	margin-bottom:6px;
-	margin-right:0;
-	margin-top:0;
-	text-align:left;
-	text-decoration:none;
-	
-	text-transform:none;
-	widows:2;
+li.Body-Styles_Alpha-list._idGenParaOverride-4 {
+	list-style-type:lower-alpha !important;
 }
 p.Body-Styles_Body-Indent {
 	color:#000000;
@@ -446,6 +430,50 @@ p.Body-Styles_Box-Quote{
 	text-transform:none;
 	widows:1;
 }
+
+
+
+
+.Body-Styles_Reference-Header{
+	margin-top: 2em;
+    padding-top: 1em;
+    background-color: #f1f1f1;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.Body-Styles_References{
+	font-size: 1.2rem;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.Body-Styles_References:last-of-type{
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+.Body-Styles_Compliance-Tip{
+	text-transform: none;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 2em 0;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 1em 0;
+}
+._idFootnotes{
+	padding-top: 1em;
+	font-weight: 400;
+    font-size: 1rem;
+}
+.Body-Styles_Quote-Style{
+	font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
 
 
 #menu-bar-footer{

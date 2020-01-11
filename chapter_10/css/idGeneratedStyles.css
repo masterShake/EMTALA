@@ -448,6 +448,53 @@ p.Body-Styles_Box-Quote{
 }
 
 
+
+
+.Body-Styles_Reference-Header{
+	margin-top: 2em;
+    padding-top: 1em;
+    background-color: #f1f1f1;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.Body-Styles_References{
+	font-size: 1.2rem;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.Body-Styles_References:last-of-type{
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+.Body-Styles_Compliance-Tip{
+	text-transform: none;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 2em 0;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 1em 0;
+}
+._idFootnotes{
+	padding-top: 1em;
+	font-weight: 400;
+    font-size: 1rem;
+}
+._idFootnotes .Body-Styles_Footnote-Style{
+	text-transform: none;
+}
+.Body-Styles_Quote-Style{
+	font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
+
 #menu-bar-footer{
 	position: fixed;
 	left: -20px;

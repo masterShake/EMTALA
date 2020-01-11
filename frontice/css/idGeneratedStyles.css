@@ -52,7 +52,8 @@ p.Body-Styles_Body-Indent {
 	text-transform:none;
 	widows:1;
 }
-p.Body-Styles_Body-Text {
+p.Body-Styles_Body-Text,
+.Body-Styles_Body-Indent-1 {
 	color:#000000;
 	font-family:"HelveticaNeueLT Pro 55 Roman", sans-serif;
 	font-size:1.35em;
@@ -69,6 +70,10 @@ p.Body-Styles_Body-Text {
 	
 	text-transform:none;
 	widows:1;
+}
+.Body-Styles_Body-Indent-1{
+	font-size: .8em !important;
+	font-weight: 400;
 }
 li.Body-Styles_Bullet-List {
 	color:#000000;
@@ -89,7 +94,7 @@ li.Body-Styles_Bullet-List {
 	text-transform:none;
 	widows:2;
 }
-li.Body-Styles_Header-L1 {
+li.Body-Styles_Header-1 {
 	color:#000000;
 	font-family:"HelveticaNeueLT Pro 65 Md", sans-serif;
 	font-size:1.6em;
@@ -109,7 +114,7 @@ li.Body-Styles_Header-L1 {
 	text-transform:uppercase;
 	widows:1;
 }
-li.Body-Styles_Header-L2 {
+li.Body-Styles_Header-2 {
 	color:#000000;
 	font-family:"HelveticaNeueLT Pro 65 Md", sans-serif;
 	font-size: 1.5em;
@@ -129,7 +134,7 @@ li.Body-Styles_Header-L2 {
 	text-transform:none;
 	widows:1;
 }
-p.Body-Styles_Header-L3 {
+p.Body-Styles_Header-3 {
 	color:#000000;
 	font-family:"HelveticaNeueLT Pro 65 Md", sans-serif;
 	font-size: 1.5em;
@@ -147,7 +152,7 @@ p.Body-Styles_Header-L3 {
 	text-transform:uppercase;
 	widows:1;
 }
-p.Body-Styles_Header-L4 {
+p.Body-Styles_Header-4 {
 	color:#000000;
 	font-family:"HelveticaNeueLT Pro 65 Md", sans-serif;
 	font-size: 1.4em;
@@ -356,17 +361,17 @@ div._idGenObjectStyleOverride-1 {
 }
 
 
-p.Master-Pages_Chapter-HeadES{
+p.Master-Pages_Chapter-Head{
 	display: flex;
 	font-size: 2.5rem;
 	font-family:"HelveticaNeueLT Pro 65 Md", sans-serif;
 	font-weight: 600;
 }
-#_idContainer002 p.Master-Pages_Chapter-HeadES{
+#_idContainer002 p.Master-Pages_Chapter-Head{
 	margin-top: 9rem;
 }
 
-p.Master-Pages_Chapter-HeadES>span{
+p.Master-Pages_Chapter-Head>span{
 	display: inline-block;
 	padding-right: .5em;
 }
@@ -395,7 +400,7 @@ p.Body-Styles_Body-Indent,
 p.Body-Styles_Body-Text,
 li.Body-Styles_Bullet-List,
 li.Body-Styles_Numbered-List,
-p.Body-Styles_Header-L5{
+p.Body-Styles_Header-5{
 	font-size: 1.2rem;
     font-weight: normal;
 }
@@ -404,24 +409,24 @@ p.Body-Styles_Quote{
     font-size:1.0rem;
 }
 
-li.Body-Styles_Header-L1{
+li.Body-Styles_Header-1{
 	font-size: 1.5rem;
 	list-style-position: inside;
 }
-li.Body-Styles_Header-L2{
+li.Body-Styles_Header-2{
 	font-size: 1.4rem;
 }
-p.Body-Styles_Header-L3{
+p.Body-Styles_Header-3{
 	font-size: 1.2rem;
 }
-p.Body-Styles_Header-L4{
+p.Body-Styles_Header-4{
 	font-size:1.2rem;
 }
 span.Bold{
     font-weight: bold;
 }
 /*
-p.Body-Styles_Header-L5{
+p.Body-Styles_Header-5{
     font-weight: bold;
 }
 */
@@ -446,6 +451,49 @@ p.Body-Styles_Box-Quote{
 	text-transform:none;
 	widows:1;
 }
+
+
+
+
+.Body-Styles_Reference-Header{
+	margin-top: 2em;
+    padding-top: 1em;
+    background-color: #f1f1f1;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.Body-Styles_References{
+	font-size: 1.2rem;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.Body-Styles_References:last-of-type{
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+.Body-Styles_Compliance-Tip{
+	text-transform: none;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 2em 0;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 1em 0;
+}
+._idFootnotes{
+	padding-top: 1em;
+	font-weight: 400;
+    font-size: 1rem;
+}
+.Body-Styles_Quote-Style{
+	font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 
 
 #menu-bar-footer{
